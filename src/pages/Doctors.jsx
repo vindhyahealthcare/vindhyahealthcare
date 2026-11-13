@@ -24,7 +24,7 @@ export default function Doctors() {
     const deptParam = searchParams.get('dept');
     
     if (searchParam) {
-      setQuery(searchParam);
+      setSearchQuery(searchParam);
     }
     if (deptParam) {
       // Find matching department ID or name
